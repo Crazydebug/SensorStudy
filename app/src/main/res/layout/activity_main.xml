@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.sensorstudy.MainActivity">
+
+    <Button
+        android:id="@+id/btn_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lightSen"/>
+
+    <Button
+        android:id="@+id/btn_aspeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aspeedSen"/>
+
+    <Button
+        android:id="@+id/btn_direction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/directionSen"/>
+
+    <Button
+        android:id="@+id/btn_pressure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pressureSen"/>
+
+    <Button
+        android:id="@+id/btn_gyroscope"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gyroscope"/>
+
+    <Button
+        android:id="@+id/btn_temperature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/temperature"/>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SensorStudy</string>
+    <string name="lightSen">光线传感器</string>
+    <string name="aspeedSen">加速度传感器</string>
+    <string name="directionSen">方向传感器</string>
+    <string name="pressureSen">压力传感器</string>
+    <string name="gyroscope">陀螺仪传感器</string>
+    <string name="temperature">温度传感器</string>
+</resources>
